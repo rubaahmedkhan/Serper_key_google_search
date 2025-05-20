@@ -23,7 +23,7 @@ SERPER_API_KEY=your_serper_api_key_here
 
 📌 Where to Get These Keys?
 ## GEMINI_API_KEY:
-Go to [https://aistudio.google.com/app/apikey] Google AI Studio and create your API key.
+Go to https://aistudio.google.com/app/apikey Google AI Studio and create your API key.
 
 ## SERPER_API_KEY:
 Sign up at https://serper.dev → Go to your dashboard → Copy your API key.
