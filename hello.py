@@ -5,7 +5,9 @@ from dotenv import load_dotenv
 import os ,asyncio,requests
 
 load_dotenv()
+
 gemini_api_key = os.getenv("GEMINI_API_KEY")
+
 
 set_tracing_disabled(disabled=True)
 
@@ -44,6 +46,7 @@ def web_search_tool(query: str, num_results: int = 5):
 
     # Load the Serper API key from environment variable
     api_key = os.getenv("SERPER_API_KEY")
+    
     if not api_key:
         return [{
             "title": "Configuration Error",
