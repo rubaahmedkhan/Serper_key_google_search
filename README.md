@@ -20,3 +20,27 @@ Create a .env file in the root directory and add your API keys:
 # .env
 GEMINI_API_KEY=your_gemini_api_key_here
 SERPER_API_KEY=your_serper_api_key_here
+
+📌 Where to Get These Keys?
+## GEMINI_API_KEY:
+Go to [https://aistudio.google.com/app/apikey](Google AI Studio) and create your API key.
+
+## SERPER_API_KEY:
+Sign up at https://serper.dev → Go to your dashboard → Copy your API key.
+
+
+## Run the Streamlit Interface
+streamlit run ui.py
+
+You will see a browser window open with a text box where you can enter queries like:
+
+Search for current temperature in Karachi
+
+Find top 5 news about OpenAI
+
+Search tourist places in Japan
+
+## Expected Output
+The assistant will call the Serper API in the background and return summarized results with source URLs.
+
+If the SERPER_API_KEY is not set correctly, you will see a configuration error in the output.
